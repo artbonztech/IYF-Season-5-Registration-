@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IYF WE CAN Academy | Season 12 Registration</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!--================ NAVIGATION =================-->
+
+    <header>
+        <div class="logo">
+            <img src="Images/Logo.jpg" alt="IYF Logo">
+            <h2>IYF WE CAN Academy Isiolo</h2>
+        </div>
+
+        <button id="menuBtn" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+       
+        <button id="darkModeBtn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </header>
+
+    <!--================ HERO SECTION =================-->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h1>
+                Welcome to <span>IYF WE CAN Academy</span>
+            </h1>
+
+            <h2>Season 5 Student Registration</h2>
+
+            <p>
+                Empowering young people through practical skills,
+                mindset education and character development.
+            </p>
+
+            <a href="#register" class="btn">
+                Register Now
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="Images/Hero.png" alt="Students">
+
+        </div>
+
+    </section>
+
+    <!--================ COURSES =================-->
+
+    <section class="courses" id="courses">
+
+        <h2>Courses Offered</h2>
+
+        <div class="course-container">
+
+            <div class="course-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Computer Packages</h3>
+            </div>
+
+            <div class="course-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+            </div>
+
+            <div class="course-card">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Graphic Design</h3>
+            </div>
+
+            <div class="course-card">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>Catering and Hospitality</h3>
+            </div>
+
+            <div class="course-card">
+                <i class="fa-solid fa-scissors"></i>
+                <h3>Hair Dressing and Beauty</h3>
+            </div>
+
+            <div class="course-card">
+                <i class="fa-solid fa-shirt"></i>
+                <h3>Fashion Design</h3>
+            </div>
+
+            <div class="course-card">
+                <i class="fa-solid fa-wrench"></i>
+                <h3>Plumbing</h3>
+            </div>
+
+            <div class="course-card">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Electrical Installation</h3>
+            </div>
+
+            <div class="course-card">
+                <i class="fa-solid fa-spa"></i>
+                <h3>Sign Language</h3>
+            </div>
+            
+             <div class="course-card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Mindset Education</h3>
+            </div>
+            
+             <div class="course-card">
+                <i class="fa-solid fa-bible"></i>
+                <h3>Theology</h3>
+            </div>
+            
+             <div class="course-card">
+                <i class="fa-solid fa-music"></i>
+                <h3>Dancing</h3>
+            </div>
+            
+             <div class="course-card">
+                <i class="fa-solid fa-music"></i>
+                <h3>Piano and Guitar</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ REGISTRATION =================-->
+
+    <section class="registration" id="register">
+
+        <h2>Student Registration Form</h2>
+
+        <form id="registrationForm">
+
+            <!-- Personal Information -->
+
+            <div class="form-section">
+
+                <h3>Personal Information</h3>
+
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" id="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Gender</label>
+
+                    <select id="gender"required>
+
+                        <option>Select Gender</option>
+
+                        <option>Male</option>
+
+                        <option>Female</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+                    <label>Date of Birth</label>
+                    <input type="date" id="dob" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Phone Number</label>
+                    <input type="tel" id="phone" placeholder="07XXXXXXXX" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" id="email" placeholder="example@email.com">
+                </div>
+
+                <div class="input-group">
+                    <label>County</label>
+                    <input type="text" id="county" placeholder="Your County">
+                </div>
+
+                <div class="input-group">
+                    <label>Area of Residence</label>
+                    <input type="text" id="residence">
+                </div>
+
+            </div>
+
+            <!-- Course Information -->
+
+            <div class="form-section">
+
+                <h3>Course Information</h3>
+
+                <div class="input-group">
+
+                    <label>Select Course</label>
+
+                    <select id="course" required>
+
+                        <option>Select Course</option>
+
+                        <option>Computer Packages</option>
+
+                        <option>Graphic Design</option>
+
+                        <option>Web Development</option>
+
+                        <option>Catering and Hospitality</option>
+
+                        <option>Hairdressing and Beauty</option>
+
+                        <option>Fashion Design</option>
+
+                        <option>Electrical Installation</option>
+
+                        <option>Plumbing</option>
+
+                        <option>Sign Language</option>
+                        <option>Mindset Education</option>
+                        <option>Theology</option>
+                        <option>Dancing</option>
+                        <option>Piano and Guitar</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Student Status</label>
+
+                    <select id="studentstatus" required>
+
+                        <option>New Student</option>
+
+                        <option>Continuing Student</option>
+
+                    </select>
+
+                </div>
+                          
+                           <!-- Parent / Guardian Information -->
+
+            <div class="form-section">
+
+                <h3>Guardian Information</h3>
+
+                <div class="input-group">
+                    <label>Guardian Name</label>
+                    <input type="text" id="guardianname" placeholder="Enter parent or guardian name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Relationship</label>
+                    <select id="relationship" required>
+                        <option>Select Relationship</option>
+                        <option>Father</option>
+                        <option>Mother</option>
+                        <option>Guardian</option>
+                        <option>Sibling</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Guardian Phone</label>
+                    <input type="tel" id="guardianphone" placeholder="07XXXXXXXX" required>
+                </div>
+
+            </div>
+
+
+            <!-- Continuing Students -->
+            <div class="form-section">
+
+                <h3>Continuing Students Only</h3>
+
+                <label>Select Previous Season(s)</label>
+
+                <div class="checkbox-grid">
+
+                    <label><input type="checkbox"> Season 1</label>
+                    <label><input type="checkbox"> Season 2</label>
+                    <label><input type="checkbox"> Season 3</label>
+                    <label><input type="checkbox"> Season 4</label>
+
+                </div>
+
+            </div>
+
+            <!-- Referral -->
+
+            <div class="form-section">
+
+                <h3>Referral Information</h3>
+
+                <div class="input-group">
+
+                    <label>How did you hear about us?</label>
+
+                    <select id="referral" required>
+
+                        <option>Select One</option>
+                        <option>Facebook</option>
+                        <option>Instagram</option>
+                        <option>TikTok</option>
+                        <option>Friend</option>
+                        <option>Church</option>
+                        <option>Website</option>
+                        <option>Radio</option>
+                        <option>TV</option>
+                        <option>Other</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+                    <label>If referred by a friend, enter their name</label>
+                    <input type="text">
+                </div>
+
+            </div>
+
+            <!-- Additional Information -->
+
+            <div class="form-section">
+
+                <h3>Additional Information</h3>
+
+                <div class="input-group">
+
+                    <label>Why do you want to join IYF WE CAN Academy?</label>
+
+                    <textarea rows="5" id="reason"
+                        placeholder="Tell us why you want to join..."></textarea>
+
+                </div>
+
+            </div>
+
+            <!-- Terms -->
+
+            <div class="form-section">
+
+                <label class="terms">
+
+                    <input type="checkbox" required>
+
+                    I confirm that all the information provided is true and
+                    correct.
+
+                </label>
+
+            </div>
+
+            <!-- Submit -->
+
+            <div class="submit-area">
+
+                <button type="submit" class="submit-btn">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    Submit Registration
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-box">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <h3>Location</h3>
+
+                <p>Isiolo, Kenya</p>
+
+            </div>
+
+            <div class="contact-box">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <h3>Phone</h3>
+
+                <p>+254 753143232</p>
+
+            </div>
+
+            <div class="contact-box">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Email</h3>
+
+                <p>iyfisiolo@gmail.com</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            © 2026 IYF WE CAN Academy. All Rights Reserved. Designed and Developed by Bonface Kithinji.
+
+        </p>
+
+    </footer>
+
+    <!-- WhatsApp Button -->
+
+    <a href="https://wa.me/254728365102"
+       class="whatsapp"
+       target="_blank">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+    <!-- Back To Top -->
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
